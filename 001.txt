@@ -1,0 +1,13 @@
+/* 001.Escreva um programa que armazene o valor 999 na variável A e o valor 
+555 na variável B. A seguir troque os seus conteúdos fazendo com que o 
+valor que está em A passe para B e vice-versa ultizando uma variável C 
+para realizar a troca. */
+programa {
+  funcao inicio() {
+    inteiro a = 999, b = 555, c
+     c = a
+     a = b
+     b = c
+     escreva("Variavel A: ", a ,",Variavel B: ", b)
+  }
+}
