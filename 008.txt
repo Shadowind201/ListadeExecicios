@@ -1,0 +1,30 @@
+/* 8. Escreva um programa que peça para o usuário digitar dois números 
+e escolher entre uma das quatro operações matemá�cas simples: 
+●adição,●subtrair,●multiplicar ●dividir*/ 
+programa {
+  funcao inicio() {
+    inteiro n1, n2 , resultado
+    caracter operacao
+
+    escreva("Digite o primeiro número: ")
+    leia(n1)
+    escreva("Digite o segundo número: ")
+    leia(n2)
+    escreva("Escolha uma operação matemática (+, -, *, /): ")
+    leia(operacao) 
+
+    se (operacao == "+") {
+      resultado = n1 + n2
+      escreva("O resultado da adição é ", resultado)
+    } senao se (operacao == "-") {
+      resultado = n1 - n2
+      escreva("O resultado da subitração é ", resultado)
+    } senao se (operacao == "*") {
+      resultado = n1 * n2
+      escreva("O resultado da multiplicação é ", resultado)
+    } senao se (operacao == "/") {
+      resultado = n1 / n2
+      escreva("O resultado da divisão é ", resultado)
+    }
+  }
+}
