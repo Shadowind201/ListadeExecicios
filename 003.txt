@@ -1,0 +1,24 @@
+/*3. Desenvolva um algoritmo que: ●Leia 4 (quatro) números ●Calcule o 
+quadrado para cada um ●Somem todos e ●Mostre o resultado */
+programa {
+  funcao inicio() {
+    inteiro n1, n2, n3, n4, quad1, quad2, quad3, quad4, soma
+    escreva("Informe o primeiro numero :")
+    leia (n1)
+    escreva("Informe o segundo numero :")
+    leia (n2)
+    escreva("Informe o terceiro numero :")
+    leia (n3)
+    escreva("Informe o quarto numero :")
+    leia (n4)
+
+  quad1 = n1 * n1
+  quad2 = n2 * n2
+  quad3 = n3 * n3
+  quad4 = n4 * n4
+
+  soma = quad1 + quad2 + quad3 + quad4
+
+  escreva("Após todos os numeros serem calculados ao quadrado, quando somados o resultado é: ", soma)
+  }
+}

@@ -1,0 +1,14 @@
+/* 002. Crie um programa que solicite ao usuário a temperatura em celsius 
+e converta para fahrenheit. Exiba na tela o resultado com uma mensagem amigável. */
+programa {
+  funcao inicio() {
+    inteiro celsius, fahrenheit
+
+    escreva("Indique a temperatura em celsius: ")
+    leia (celsius)
+
+    fahrenheit = (celsius * 1.8) + 32
+    escreva( celsius , " graus celsius é igual a ", fahrenheit ," graus fahrenheit")
+    escreva("Obrigado por usar o nosso progama =)")
+  }
+}

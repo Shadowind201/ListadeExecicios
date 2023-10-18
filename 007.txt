@@ -1,0 +1,25 @@
+/* 7. Desenvolva um Algoritmo que lê o nome e as 4 notas bimestrais de um aluno.
+ Em seguida o Algoritmo calcula e escreve a média obtida e se o aluno foi aprovado
+ou reprovado. Considere a média 5 para aprovação. */
+programa {
+  funcao inicio() {
+    inteiro n1, n2, n3, n4, media
+
+    escreva("Informe a primeira nota: ")
+    leia (n1)
+    escreva("Informe a segunda nota: ")
+    leia (n2)
+    escreva("Informe a terceira nota: ")
+    leia (n3)
+    escreva("Informe a segunda nota: ")
+    leia (n4)
+
+    media = (n1 + n2 + n3 + n4) / 4
+
+    se (media >= 5) {
+      escreva("Sua nota foi ", media ," por isso você foi aprovado")
+    } senao {
+      escreva("Sua nota foi ", media ," por isso você foi reprovado")
+    }
+  }
+}

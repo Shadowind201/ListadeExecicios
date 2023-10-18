@@ -1,0 +1,24 @@
+/* 006. Faça um Programa que leia três números e mostre o maior deles. */
+programa {
+  funcao inicio() {
+    real a, b, c, maior
+
+    escreva("Informe o valor de A: ")
+    leia (a)
+    escreva("Informe o valor de B: ")
+    leia (b)
+    escreva("Informe o valor de C: ")
+    leia (c)
+
+    se (a > b e a > c) {
+      maior = a
+   } senao se (b > c) {
+      maior = b
+   } senao {
+      maior = c
+   }
+   escreva("O maior número é ", maior)
+  }
+}
+
+

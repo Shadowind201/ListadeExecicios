@@ -1,0 +1,18 @@
+/* 004. Ler dois valores numéricos inteiros (representados pelas variáveis A e B)
+ e apresentar o resultado do quadrado da diferença do primeiro valor (variável A)
+  em relação ao segundo valor (variável B). */
+programa {
+  funcao inicio() {
+    inteiro a, b, diferenca, quadrado
+
+    escreva("Digite o valor de A: ")
+    leia(a)
+    escreva("Digite o valor de B: ")
+    leia(b)
+
+    diferenca = a - b
+    quadrado = diferenca * diferenca
+
+   escreva("A diferença de A e B ao quadrado é: ", quadrado)
+  }
+}
