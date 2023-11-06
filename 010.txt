@@ -24,7 +24,7 @@ programa {
    escreva("Terminar em: ")
    leia(termina)
 
-   
-    
+   escreva("Vou montar a tabuada de ", numero, 
+   " começando em ", comeca, " e terminando em ", termina, ":")
   }
-}
+}  

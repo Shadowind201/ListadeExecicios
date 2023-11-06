@@ -1,0 +1,23 @@
+/* Faça um programa que peça uma nota, entre zero e dez. Mostre uma mensagem 
+caso o valor seja inválido e continue pedindo até que o usuário informe um 
+valor válido. */
+
+
+programa {
+  funcao inicio() {
+
+    inteiro numero
+
+    escreva("Informe um numero de 0 a 10: ")
+    leia(numero)
+
+    se (numero < 0 ou numero > 10) {
+      escreva("Valor invalido")
+    } senao { (numero >= 0 e numero <= 10)
+      escreva("Nota válida: ", numero)
+      cadeia 
+      escreva("Informe outro numero")
+    } 
+  }
+}  
+
