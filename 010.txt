@@ -12,19 +12,29 @@ Vou montar a tabuada de 5 começando em 4 e terminando em 7:
 5 X 7 = 35
 Obs: Você deve verificar se o usuário não digitou o final menor que o inicial. */
 
-programa {
-  funcao inicio() {
+programa{
+	funcao inicio(){
+		inteiro numero, inicio, fim
 
-  inteiro numero, comeca, termina, resultado
+		escreva("Digite o número para a tabuada: ")
+		leia(numero)
 
-   escreva("Montar a tabuada de: ")
-   leia(numero)
-   escreva("Começar por: ")
-   leia(comeca)
-   escreva("Terminar em: ")
-   leia(termina)
+		escreva("Digite o valor inicial da tabuada: ")
+		leia(inicio)
 
-   escreva("Vou montar a tabuada de ", numero, 
-   " começando em ", comeca, " e terminando em ", termina, ":")
-  }
-}  
+		escreva("Digite o valor final da tabuada: ")
+		leia(fim)
+
+		se(fim < inicio){
+			escreva("Erro! O valor final não pode ser menor que o valor inicial.\n")
+		} else {
+			escreva("Vou montar a tabuada de ", numero, " começando em ", inicio, " e terminando em ", fim, ":\n")
+
+			inteiro i
+			para(i = inicio; i <= fim; i++)
+			{
+				escreva(numero, " X ", i, " = ", numero * i, "\n")
+			}
+		}
+	}
+}

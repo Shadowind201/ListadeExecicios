@@ -5,10 +5,13 @@ programa {
 
   funcao inicio() {
     
-    inteiro numero 
+    inteiro i
 
-    se (numero % 2 == 0){
-    escreva(numero)
+		para(i = 1; i <= 50; i++){
+			se(i % 2 != 0)
+			{
+				escreva(i, "\n")
+			}
     }
   }
 }

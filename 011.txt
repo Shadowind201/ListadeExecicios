@@ -6,18 +6,19 @@ valor válido. */
 programa {
   funcao inicio() {
 
-    inteiro numero
+    inteiro nota = -1
 
-    escreva("Informe um numero de 0 a 10: ")
-    leia(numero)
+		enquanto(nota < 0 ou nota > 10){
+			escreva("Por favor, insira uma nota entre 0 e 10: ")
+			leia(nota)
 
-    se (numero < 0 ou numero > 10) {
-      escreva("Valor invalido")
-    } senao { (numero >= 0 e numero <= 10)
-      escreva("Nota válida: ", numero)
-      cadeia 
-      escreva("Informe outro numero")
-    } 
+			se(nota < 0 ou nota > 10)
+			{
+				escreva("Valor inválido! \n")
+			}
+		}
+
+		escreva("Você inseriu uma nota válida: ", nota)
   }
-}  
+}
 
